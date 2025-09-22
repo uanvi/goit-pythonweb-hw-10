@@ -1,0 +1,22 @@
+fastapi==0.116.2
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+pydantic[email]==2.10.4
+alembic==1.16.5
+python-dotenv==1.0.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+
+# Email verification
+fastapi-mail==1.5.0
+
+# Avatar upload
+cloudinary==1.44.1
+
+# Rate limiting
+slowapi==0.1.9
+redis==5.2.1
